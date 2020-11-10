@@ -6,7 +6,8 @@ To add this repository as a submodule, execute following command in directory of
 git submodule add git@github.com:mluvii/mluvii.ApiModels.git
 ``
 
-## Deserialization
+## Serialization
 ### Enumerations
-Enumerations may change by adding new values to them. Api consumers should ignore unknown values when deserializing.
-See also [this SO question](https://stackoverflow.com/questions/22752075/how-can-i-ignore-unknown-enum-values-during-json-deserialization).
+All enumerations must be sent as strings. Special value UNKNOWN must be avoided as it is only used for deserialization.
+
+Enumerations may change by adding new values to them. Api consumers should ignore unknown values when deserializing and translate these unknown values using UNKNOWN special value that is present in all enumerations. See also [this SO question](https://stackoverflow.com/questions/22752075/how-can-i-ignore-unknown-enum-values-during-json-deserialization).
