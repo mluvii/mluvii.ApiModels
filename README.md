@@ -3,7 +3,7 @@
 Include this repository as a submodule in your source tree and reference the csproj from your main project.
 To add this repository as a submodule, execute following command in directory of your choice inside your source tree:
 ``
-git submodule add git@github.com:mluvii/mluvii.ApiModels.git
+git submodule add https://github.com/mluvii/mluvii.ApiModels.git
 ``
 
 ## Serialization
