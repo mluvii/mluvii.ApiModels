@@ -159,6 +159,7 @@ namespace mluvii.ApiModels.Sessions
         /// <summary>
         /// Contents of feedback form custom fields.
         /// </summary>
+        [Obsolete]
         public IDictionary<string, object> GuestFeedbackCustomFields { get; set; }
 
         /// <summary>
