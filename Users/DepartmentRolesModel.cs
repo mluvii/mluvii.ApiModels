@@ -6,6 +6,6 @@ namespace mluvii.ApiModels.Users
     public class DepartmentRolesModel
     {
         [Required]
-        public ICollection<string> Roles { get; set; }
+        public ICollection<DepartmentRole> Roles { get; set; }
     }
 }

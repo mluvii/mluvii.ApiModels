@@ -6,6 +6,6 @@ namespace mluvii.ApiModels.Users
     public class SetGlobalRolesModel
     {
         [Required]
-        public ICollection<string> GlobalRoles { get; set; }
+        public ICollection<GlobalRole> GlobalRoles { get; set; }
     }
 }

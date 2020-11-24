@@ -18,6 +18,6 @@ namespace mluvii.ApiModels.Users
 
         public ICollection<int> Departments { get; set; }
 
-        public ICollection<string> GlobalRoles { get; set; }
+        public ICollection<GlobalRole> GlobalRoles { get; set; }
     }
 }
