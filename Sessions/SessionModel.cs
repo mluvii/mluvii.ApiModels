@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using mluvii.ApiModels.Common;
+using Newtonsoft.Json;
 
 namespace mluvii.ApiModels.Sessions
 {
@@ -268,6 +269,7 @@ namespace mluvii.ApiModels.Sessions
             /// <summary>
             /// Sender of activity
             /// </summary>
+            [JsonProperty("client")]
             public ClientType Sender { get; set; }
 
             /// <summary>
