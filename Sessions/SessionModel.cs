@@ -267,7 +267,7 @@ namespace mluvii.ApiModels.Sessions
             /// <summary>
             /// Sender of activity
             /// </summary>
-            public ClientType Sender { get; set; }
+            public ClientType Client { get; set; }
 
             /// <summary>
             /// Operator who initiated the activity.
