@@ -159,6 +159,7 @@ namespace mluvii.ApiModels.Sessions
         /// <summary>
         /// Contents of feedback form custom fields.
         /// </summary>
+        [Obsolete]
         public IDictionary<string, object> GuestFeedbackCustomFields { get; set; }
 
         /// <summary>
@@ -267,7 +268,7 @@ namespace mluvii.ApiModels.Sessions
             /// <summary>
             /// Sender of activity
             /// </summary>
-            public ClientType Client { get; set; }
+            public ClientType? Client { get; set; }
 
             /// <summary>
             /// Operator who initiated the activity.
