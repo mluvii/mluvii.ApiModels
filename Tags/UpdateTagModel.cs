@@ -6,8 +6,8 @@
 
         public string Label { get; set; }
 
-        public uint BackgroundArgb { get; set; }
+        public string BackgroundArgb { get; set; }
 
-        public uint TextArgb { get; set; }
+        public string TextArgb { get; set; }
     }
 }
