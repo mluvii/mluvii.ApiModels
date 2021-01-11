@@ -26,6 +26,7 @@ namespace mluvii.ApiModels.Sessions
         AvTerminated,
         ChatToMail,
         AutoActivity,
+        ChatbotHeroCardSubmission,
         UpgradeToFull,
         SessionEnded,
         SessionForwarded,
