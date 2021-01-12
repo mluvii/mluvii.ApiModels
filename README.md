@@ -17,3 +17,6 @@ Api consumers should ignore unknown values when deserializing and translate thes
 See the [sample code](https://github.com/mluvii/apiintegrationsamplecs)
 that uses [customized Newtonsoft.Json settings](https://github.com/mluvii/apiintegrationsamplecs/tree/master/ApiIntegrationSample/mluvii.ApiIntegrationSample.Web/Serialization)
 to automatically handle unknown values.
+
+## Development
+The master branch contains production code deployed on app.mluvii.com. Changes about to be released in near future are merged into a branch named after the future version number (2.XX). After such future version gets deployed on production, the corresponding branch is merged into master.
