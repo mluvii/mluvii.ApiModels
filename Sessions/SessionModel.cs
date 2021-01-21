@@ -246,9 +246,15 @@ namespace mluvii.ApiModels.Sessions
             public string LastName { get; set; }
 
             /// <summary>
-            /// Freeform textual feedback by reviewer.
+            /// Obsolete, use <see cref="Note"/>
             /// </summary>
-            public string FeedbackText { get; set; }
+            [Obsolete("Use Note")]
+            public string FeedbackText => Note;
+
+            /// <summary>
+            /// Freeform note by operator.
+            /// </summary>
+            public string Note { get; set; }
         }
 
         public class Activity
