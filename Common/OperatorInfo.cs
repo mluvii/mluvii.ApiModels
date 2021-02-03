@@ -41,14 +41,18 @@ namespace mluvii.ApiModels.Common
         /// </summary>
         public DateTimeOffset? Concluded { get; set; }
 
-        /// <summary>
-        /// Selected session result.
-        /// </summary>
+        [Obsolete]
         public string FeedbackResult { get; set; }
 
         /// <summary>
-        /// Freeform textual feedback by operator.
+        /// Obsolete, use <see cref="Note"/>
         /// </summary>
-        public string FeedbackText { get; set; }
+        [Obsolete("Use Note")]
+        public string FeedbackText => Note;
+
+        /// <summary>
+        /// Freeform note by operator.
+        /// </summary>
+        public string Note { get; set; }
     }
 }
