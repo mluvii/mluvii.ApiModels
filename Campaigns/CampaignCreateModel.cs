@@ -5,6 +5,7 @@ namespace mluvii.ApiModels.Campaigns
 {
     public class CampaignBaseModel
     {
+        [Required]
         public string Name { get; set; }
 
         public int? PickupRate { get; set; }
