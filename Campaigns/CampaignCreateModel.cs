@@ -8,6 +8,9 @@ namespace mluvii.ApiModels.Campaigns
         [Required]
         public string Name { get; set; }
 
+        [Required]
+        public string Goal { get; set; }
+
         public int? PickupRate { get; set; }
 
         public string ContactInfoField { get; set; }

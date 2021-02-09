@@ -12,6 +12,8 @@ namespace mluvii.ApiModels.Campaigns
 
         public string Name { get; set; }
 
+        public string Goal { get; set; }
+
         [EnumDataType(typeof(Channel))]
         public Channel Channel { get; set; }
 
