@@ -406,6 +406,7 @@ namespace mluvii.ApiModels.Sessions
         {
             public string Value { get; set; }
             public string Label { get; set; }
+            public int Ordinal { get; set; }
         }
 
         public class Recording
