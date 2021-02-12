@@ -13,6 +13,7 @@ namespace mluvii.ApiModels.Campaigns
 
         public int? PickupRate { get; set; }
 
+        [Required]
         public string ContactInfoField { get; set; }
 
         public int? CallScriptId { get; set; }
