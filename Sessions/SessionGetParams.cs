@@ -27,6 +27,8 @@ namespace mluvii.ApiModels.Sessions
 
         public DateTimeFilter Created { get; set; }
 
+        public DateTimeFilter GuestJoined { get; set; }
+
         public DateTimeFilter Accepted { get; set; }
 
         public DateTimeFilter Ended { get; set; }
