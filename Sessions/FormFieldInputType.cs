@@ -12,6 +12,8 @@ namespace mluvii.ApiModels.Sessions
         RichText,
         Radio,
         Select,
+        Image,
+        Video,
         Gdpr,
         Confirmation,
         Submit,
