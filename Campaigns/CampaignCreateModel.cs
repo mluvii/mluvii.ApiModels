@@ -24,6 +24,7 @@ namespace mluvii.ApiModels.Campaigns
 
         public int? BcwSeconds { get; set; }
 
+        [Required, MinLength(1, ErrorMessage = "At least one CallerId is required")]
         public string[] CallerIds { get; set; }
     }
 
