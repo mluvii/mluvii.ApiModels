@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace mluvii.ApiModels.Users
 {
@@ -15,17 +14,12 @@ namespace mluvii.ApiModels.Users
     {
         public int UserId { get; set; }
 
-        [Obsolete("Use State")]
         [EnumDataType(typeof(UserSimplifiedStatus))]
         public UserSimplifiedStatus SimplifiedStatus { get; set; }
 
-        [Obsolete("Use State")]
         [EnumDataType(typeof(UserAvailabilityStatus))]
         public UserAvailabilityStatus AvailabilityStatus { get; set; }
 
         public string AvailabilityStatusReason { get; set; }
-
-        [EnumDataType(typeof(OperatorStateKind))]
-        public OperatorStateKind State { get; set; }
     }
 }
