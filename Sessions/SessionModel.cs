@@ -328,11 +328,15 @@ namespace mluvii.ApiModels.Sessions
             /// </summary>
             public string Note { get; set; }
 
+            public int? HeroCardId { get; set; }
+
             /// <summary>
             /// HeroCard activity only
             /// List of field definitions for given hero card.
             /// </summary>
             public ICollection<ActivityFormField> HeroCard { get; set; }
+
+            public int? CallScriptId { get; set; }
 
             /// <summary>
             /// CallScript activity only
