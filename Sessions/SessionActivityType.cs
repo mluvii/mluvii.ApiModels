@@ -20,6 +20,8 @@ namespace mluvii.ApiModels.Sessions
         LastFarewellMessage,
         PreviewUrl,
         ExternalMessage,
+        OnHold,
+        ResumeGuest,
         AvRequest,
         AvResponse,
         AvGetMediaResult,
