@@ -15,6 +15,11 @@ namespace mluvii.ApiModels.Webhooks
         EmailThreadCreated,
         EmailThreadOperatorJoined,
         EmailThreadOperatorLeft,
-        EmailThreadForwarded
+        EmailThreadForwarded,
+        GuestIdentityUpdated,
+        SessionActivityAvRequest,
+        SessionActivityAvResponse,
+        SessionActivityAvMediaResult,
+        SessionActivityAvTerminated
     }
 }
