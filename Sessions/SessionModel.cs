@@ -323,6 +323,11 @@ namespace mluvii.ApiModels.Sessions
             public string ToGroupName { get; set; }
 
             /// <summary>
+            /// "Forwarding to external phone" activity only.
+            /// </summary>
+            public string ToPhoneNumber { get; set; }
+
+            /// <summary>
             /// Forwarding activity only.
             /// Note associated with forwarding.
             /// </summary>
@@ -367,6 +372,14 @@ namespace mluvii.ApiModels.Sessions
             /// HeroCard submission parameters. None when HeroCard result is 'Cancelled'
             /// </summary>
             public IDictionary<string, string> SubmissionParams { get; set; }
+
+            public string SubmissionIdentification { get; set; }
+
+            public SessionTerminationReason? TerminationReason { get; set; }
+
+            public string ChatbotHeroCardSubmissionKey { get; set; }
+
+            public string ChatbotHeroCardSubmissionValue { get; set; }
         }
 
         public class ActivityFile

@@ -9,12 +9,14 @@ namespace mluvii.ApiModels.Sessions
         ChatbotLeft,
         GuestAbandoned,
         OperatorAbandoned,
+        ExternalPartyLeft,
 
         CampaignFailedDial,
         CampaignTerminated,
 
         CallForwardedToExternalPhone,
         OperatorWithoutExtension,
+        ForwardToExternalPhoneFailed,
 
         FailedRouting,
         ExternalSessionExpired,
