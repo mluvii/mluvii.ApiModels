@@ -373,12 +373,27 @@ namespace mluvii.ApiModels.Sessions
             /// </summary>
             public IDictionary<string, string> SubmissionParams { get; set; }
 
+            /// <summary>
+            /// "HeroCard submission" activity only
+            /// Guest identification when using authentication form field.
+            /// &lt;identification&gt; ::= &lt;provider-id&gt; ":" &lt;user_name&gt;
+            /// </summary>
             public string SubmissionIdentification { get; set; }
 
+            /// <summary>
+            /// "Session ended" activity only
+            /// Session termination reason.
+            /// </summary>
             public SessionTerminationReason? TerminationReason { get; set; }
 
+            /// <summary>
+            /// "Chatbot HeroCard submission" activity only
+            /// </summary>
             public string ChatbotHeroCardSubmissionKey { get; set; }
 
+            /// <summary>
+            /// "Chatbot HeroCard submission" activity only
+            /// </summary>
             public string ChatbotHeroCardSubmissionValue { get; set; }
         }
 
