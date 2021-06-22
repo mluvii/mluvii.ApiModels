@@ -333,15 +333,19 @@ namespace mluvii.ApiModels.Sessions
             /// </summary>
             public string Note { get; set; }
 
+            [Obsolete("Use OriginalFormId")]
+            public int? CallScriptId { get; set; }
+
+            [Obsolete("Use OriginalFormId")]
             public int? HeroCardId { get; set; }
+
+            public int? OriginalFormId { get; set; }
 
             /// <summary>
             /// HeroCard activity only
             /// List of field definitions for given hero card.
             /// </summary>
             public ICollection<ActivityFormField> HeroCard { get; set; }
-
-            public int? CallScriptId { get; set; }
 
             /// <summary>
             /// CallScript activity only
