@@ -453,6 +453,11 @@ namespace mluvii.ApiModels.Sessions
             /// </summary>
             public string Name { get; set; }
 
+            /// <summary>
+            /// Time when this recording started.
+            /// </summary>
+            public DateTimeOffset? Started { get; set; }
+
             public int? ServiceId { get; set; }
 
             /// <summary>
