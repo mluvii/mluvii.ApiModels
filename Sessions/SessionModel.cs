@@ -179,6 +179,8 @@ namespace mluvii.ApiModels.Sessions
         [EnumDataType(typeof(DialNumberState))]
         public DialNumberState? OutboundDialResult { get; set; }
 
+        public int? CampaignId { get; set; }
+
         public class GuestInfo
         {
             /// <summary>
