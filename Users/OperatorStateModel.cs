@@ -17,5 +17,7 @@ namespace mluvii.ApiModels.Users
         public string Note { get; set; }
 
         public DateTime Changed { get; set; }
+
+        public bool Forced { get; set; }
     }
 }
