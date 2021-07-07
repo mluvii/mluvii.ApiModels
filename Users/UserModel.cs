@@ -14,9 +14,13 @@ namespace mluvii.ApiModels.Users
 
         public string Email { get; set; }
 
+        public string Note { get; set; }
+
         public bool Enabled { get; set; }
 
         public ICollection<int> Departments { get; set; }
+
+        public ICollection<int> Groups { get; set; }
 
         public ICollection<GlobalRole> GlobalRoles { get; set; }
     }

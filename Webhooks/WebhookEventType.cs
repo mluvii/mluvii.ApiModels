@@ -20,6 +20,7 @@ namespace mluvii.ApiModels.Webhooks
         SessionActivityAvRequest,
         SessionActivityAvResponse,
         SessionActivityAvMediaResult,
-        SessionActivityAvTerminated
+        SessionActivityAvTerminated,
+        SessionActivityHeroCardSubmission
     }
 }

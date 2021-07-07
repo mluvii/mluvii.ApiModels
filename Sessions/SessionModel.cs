@@ -179,6 +179,8 @@ namespace mluvii.ApiModels.Sessions
         [EnumDataType(typeof(DialNumberState))]
         public DialNumberState? OutboundDialResult { get; set; }
 
+        public int? CampaignId { get; set; }
+
         public class GuestInfo
         {
             /// <summary>
@@ -452,6 +454,11 @@ namespace mluvii.ApiModels.Sessions
             /// Name of stored file.
             /// </summary>
             public string Name { get; set; }
+
+            /// <summary>
+            /// Time when this recording started.
+            /// </summary>
+            public DateTimeOffset? Started { get; set; }
 
             public int? ServiceId { get; set; }
 

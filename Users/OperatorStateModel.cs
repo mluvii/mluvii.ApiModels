@@ -1,3 +1,5 @@
+using System;
+
 namespace mluvii.ApiModels.Users
 {
     public class OperatorStateModel
@@ -10,6 +12,12 @@ namespace mluvii.ApiModels.Users
 
         public string BreakStateName { get; set; }
 
+        public bool? IsBreakStatePaid { get; set; }
+
         public string Note { get; set; }
+
+        public DateTime Changed { get; set; }
+
+        public bool Forced { get; set; }
     }
 }
