@@ -17,12 +17,6 @@ namespace mluvii.ApiModels.Groups
     {
         public int InQueueCountTotal { get; set; }
 
-        /// <summary>
-        /// Count of used shared slots
-        /// It is used in whole group routing
-        /// </summary>
-        public int SharedSlotsUsedTotal { get; set; }
-
         public int FreeQueueSlotsCountTotal { get; set; }
     }
 }
