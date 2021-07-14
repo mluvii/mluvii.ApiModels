@@ -8,6 +8,8 @@ namespace mluvii.ApiModels.Campaigns
         [Required]
         public string Name { get; set; }
 
+        public string Description { get; set; }
+
         [Required]
         public string Goal { get; set; }
 
