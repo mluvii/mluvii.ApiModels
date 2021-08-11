@@ -15,6 +15,5 @@ namespace mluvii.ApiModels.Groups
         public OperatorGroupType Type { get; set; }
 
         public int DepartmentId { get; set; }
-
     }
 }
