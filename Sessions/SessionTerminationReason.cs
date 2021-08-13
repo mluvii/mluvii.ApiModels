@@ -2,7 +2,7 @@ namespace mluvii.ApiModels.Sessions
 {
     public enum SessionTerminationReason
     {
-        UNKNOWN = 0,
+        UnknownReason = 0,
 
         GuestLeft,
         OperatorLeft,
