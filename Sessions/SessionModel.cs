@@ -460,6 +460,13 @@ namespace mluvii.ApiModels.Sessions
             /// </summary>
             public DateTimeOffset? Started { get; set; }
 
+            public SessionRecordingType? Type { get; set; }
+
+            /// <summary>
+            /// Contains operator's user id when <see cref="Type" /> is <see cref="SessionRecordingType.Operator" />.
+            /// </summary>
+            public int? UserId { get; set; }
+
             public int? ServiceId { get; set; }
 
             /// <summary>
