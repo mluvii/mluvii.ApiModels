@@ -1,18 +1,19 @@
+using mluvii.ApiModels.Common;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace mluvii.ApiModels.Common
+namespace mluvii.ApiModels.Emails
 {
-    public class InteractionParamsModel
+    public class EmailThreadParamsModel
     {
         /// <summary>
         /// Interaction params associated with e-mail thread.
         /// </summary>
-        public ICollection<InteractionParam> InteractionParams { get; set; }
+        public ICollection<EmailThreadParam> Params { get; set; }
     }
 
-    public class InteractionParam
+    public class EmailThreadParam
     {
         public string Name { get; set; }
 
@@ -26,8 +27,8 @@ namespace mluvii.ApiModels.Common
         public DateTime UpdatedDate { get; set; }
     }
 
-    public class UpdateInteractionParamsModel
+    public class UpdateEmailThreadParamsModel
     {
-        public IDictionary<string, string> InteractionParams { get; set; }
+        public IDictionary<string, string> Params { get; set; }
     }
 }
