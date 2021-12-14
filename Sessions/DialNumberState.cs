@@ -10,6 +10,7 @@ namespace mluvii.ApiModels.Sessions
         NO_ANSWER,
         BLACKLISTED,
         REJECTED,
+        INVALID_NUMBER,
         UNREACHABLE,
         CANCELLED_BY_USER
     }
