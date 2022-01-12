@@ -60,12 +60,19 @@ namespace mluvii.ApiModels.Emails
         /// <summary>
         /// E-mail message recipient name.
         /// </summary>
+        [Obsolete("Replaced by Recipients collection")]
         public string RecipientName { get; set; }
 
         /// <summary>
         /// E-mail message recipient e-mail.
         /// </summary>
+        [Obsolete("Replaced by Recipients collection")]
         public string RecipientAddress { get; set; }
+
+        /// <summary>
+        /// All message recipients
+        /// </summary>
+        public ICollection<EmailRecipient> Recipients { get; set; }
 
         /// <summary>
         /// E-mail message inbox name.
