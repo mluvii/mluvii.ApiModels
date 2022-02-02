@@ -20,6 +20,7 @@ namespace mluvii.ApiModels.Sessions
         Identification,
         TimePicker,
         ListPicker,
+        QuickReply,
 
         Stars,
         Smiles,
