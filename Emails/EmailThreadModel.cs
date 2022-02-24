@@ -70,5 +70,32 @@ namespace mluvii.ApiModels.Emails
         /// Does e-mail thread has an auto-answer e-mail message.
         /// </summary>
         public bool AutoReplySent { get; set; }
+
+        /// <summary>
+        /// Trail of all e-mail thread activities.
+        /// </summary>
+        public ICollection<Activity> Activities { get; set; }
+    }
+
+    public class Activity
+    {
+        public long Id { get; set; }
+
+        public string Body { get; set; }
+
+        /// <summary>
+        /// Type of activity
+        /// </summary>
+        public EmailThreadActivityType Type { get; set; }
+
+        /// <summary>
+        /// Operator who initiated the activity.
+        /// </summary>
+        public int? UserId { get; set; }
+
+        /// <summary>
+        /// Timestamp of activity
+        /// </summary>
+        public DateTimeOffset Created { get; set; }
     }
 }

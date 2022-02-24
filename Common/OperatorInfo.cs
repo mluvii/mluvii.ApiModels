@@ -23,7 +23,7 @@ namespace mluvii.ApiModels.Common
     {
         public DateTimeOffset Assigned { get; set; }
 
-        public DateTimeOffset Unassigned { get; set; }
+        public DateTimeOffset? Unassigned { get; set; }
     }
 
     public class SessionOperators : GeneralOperatorInfo
