@@ -4,6 +4,7 @@
     {
         UNKNOWN = 0,
         User,
+        WidgetApi,
         Chatbot,
         HeroCard,
         EntryForm,

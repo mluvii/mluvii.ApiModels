@@ -4,6 +4,7 @@ namespace mluvii.ApiModels.Sessions
     {
         UNKNOWN = 0,
         USER,
+        WIDGET_API,
         CHATBOT,
         HERO_CARD,
         ENTRY_FORM,
