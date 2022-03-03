@@ -30,7 +30,7 @@ namespace mluvii.ApiModels.Emails
         /// <summary>
         /// Last e-mail message time from client.
         /// </summary>
-        public DateTimeOffset LastClientMessage { get; set; }
+        public DateTimeOffset? LastClientMessage { get; set; }
 
         /// <summary>
         /// E-mail thread general subject.
