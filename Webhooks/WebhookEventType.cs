@@ -48,6 +48,8 @@ namespace mluvii.ApiModels.Webhooks
         SessionActivityAvResponse,
         SessionActivityAvMediaResult,
         SessionActivityAvTerminated,
-        EmailThreadParamsUpdated
+        EmailThreadParamsUpdated,
+        ApplicationSettingChanged,
+        StatRealTime,
     }
 }
