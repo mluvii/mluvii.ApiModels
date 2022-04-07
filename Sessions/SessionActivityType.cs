@@ -35,6 +35,7 @@ namespace mluvii.ApiModels.Sessions
         OperatorInvited,
         OperatorInviteCanceled,
         OperatorInviteRejected,
-        OperatorKicked
+        OperatorKicked,
+        Handoff
     }
 }
