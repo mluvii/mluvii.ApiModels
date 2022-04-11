@@ -14,6 +14,7 @@ namespace mluvii.ApiModels.Sessions
         Select,
         Image,
         Video,
+        Document,
         Gdpr,
         Confirmation,
         Submit,
