@@ -460,6 +460,11 @@ namespace mluvii.ApiModels.Sessions
             /// </summary>
             public DateTimeOffset? Started { get; set; }
 
+            /// <summary>
+            /// ISO 8601 duration. Length of recording or null.
+            /// </summary>
+            public string Duration { get; set; }
+
             public SessionRecordingType? Type { get; set; }
 
             /// <summary>
