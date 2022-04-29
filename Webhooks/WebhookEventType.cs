@@ -12,6 +12,7 @@ namespace mluvii.ApiModels.Webhooks
         SessionOperatorLeft,
         SessionOperatorConcluded,
         SessionCallParamsUpdated,
+        SessionRecordingPostProcessingCompleted,
         EmailThreadCreated,
         EmailThreadOperatorJoined,
         EmailThreadOperatorLeft,

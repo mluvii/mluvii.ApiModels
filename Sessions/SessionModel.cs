@@ -167,6 +167,9 @@ namespace mluvii.ApiModels.Sessions
         /// </summary>
         public ICollection<Recording> Recordings { get; set; }
 
+        [EnumDataType(typeof(SessionRecordingsState))]
+        public SessionRecordingsState? RecordingsState { get; set; }
+
         /// <summary>
         /// Represents how guest left the session
         /// </summary>
