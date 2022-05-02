@@ -408,6 +408,8 @@ namespace mluvii.ApiModels.Sessions
 
         public class ActivityFile
         {
+            public int Id { get; set; }
+
             /// <summary>
             /// Operator-owned files only.
             /// Operator user ID.
