@@ -432,6 +432,10 @@ namespace mluvii.ApiModels.Sessions
             /// It is generated after the structure is read from stat db and deserialized.
             /// </summary>
             public string DownloadUrl { get; set; }
+
+            public bool IsUploading { get; set; }
+
+            public bool IsDeleted { get; set; }
         }
 
         public class ActivityFormField
@@ -484,6 +488,10 @@ namespace mluvii.ApiModels.Sessions
             /// It is generated after the structure is read from stat db and deserialized.
             /// </summary>
             public string DownloadUrl { get; set; }
+
+            public bool IsUploading { get; set; }
+
+            public bool IsDeleted { get; set; }
         }
 
         /// <summary>
