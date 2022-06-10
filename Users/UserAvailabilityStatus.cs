@@ -4,6 +4,7 @@ namespace mluvii.ApiModels.Users
     {
         UNKNOWN = 0,
         DEFAULT,
-        AWAY
+        AWAY,
+        ON_CALL
     }
 }
