@@ -24,7 +24,7 @@ namespace mluvii.ApiModels.Emails
         [EnumDataType(typeof(InteractionParamSource))]
         public InteractionParamSource Source { get; set; }
 
-        public DateTime UpdatedDate { get; set; }
+        public DateTimeOffset UpdatedDate { get; set; }
     }
 
     public class UpdateEmailThreadParamsModel

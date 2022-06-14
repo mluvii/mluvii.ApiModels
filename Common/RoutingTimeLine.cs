@@ -7,7 +7,7 @@ namespace mluvii.ApiModels.Common
     {
         public long RoutingRequestId { get; set; }
 
-        public DateTime Timestamp { get; set; }
+        public DateTimeOffset Timestamp { get; set; }
 
         [EnumDataType(typeof(RoutingTimelineActivityType))]
         public RoutingTimelineActivityType ActivityType { get; set; }

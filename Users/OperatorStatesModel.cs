@@ -4,7 +4,7 @@ namespace mluvii.ApiModels.Users
 {
     public class OperatorStatesModel
     {
-        public DateTime LastModified { get; set; }
+        public DateTimeOffset LastModified { get; set; }
 
         public int Limit { get; set; }
 

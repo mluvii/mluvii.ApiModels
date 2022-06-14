@@ -23,7 +23,7 @@ namespace mluvii.ApiModels.Sessions
         [EnumDataType(typeof(ClientCallParamSource))]
         public ClientCallParamSource Source { get; set; }
 
-        public DateTime UpdatedDate { get; set; }
+        public DateTimeOffset UpdatedDate { get; set; }
     }
 
     public class UpdateCallParamsModel

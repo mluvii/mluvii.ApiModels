@@ -10,7 +10,7 @@ namespace mluvii.ApiModels.Groups
 
         public string Name { get; set; }
 
-        public DateTime Created { get; set; }
+        public DateTimeOffset Created { get; set; }
 
         public OperatorGroupType Type { get; set; }
 

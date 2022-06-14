@@ -24,11 +24,11 @@ namespace mluvii.ApiModels.Campaigns
 
         public int? PickupRate { get; set; }
 
-        public DateTime Created { get; set; }
+        public DateTimeOffset Created { get; set; }
 
-        public DateTime? Started { get; set; }
+        public DateTimeOffset? Started { get; set; }
 
-        public DateTime? Finished { get; set; }
+        public DateTimeOffset? Finished { get; set; }
 
         public string ContactInfoField { get; set; }
 

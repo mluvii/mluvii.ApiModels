@@ -10,9 +10,9 @@ namespace mluvii.ApiModels.Campaigns
         [EnumDataType(typeof(CampaignIdentityState))]
         public CampaignIdentityState State { get; set; }
 
-        public DateTime? Created { get; set; }
+        public DateTimeOffset? Created { get; set; }
 
-        public DateTime? RetryScheduledDate { get; set; }
+        public DateTimeOffset? RetryScheduledDate { get; set; }
 
         public int RetryCount { get; set; }
     }
