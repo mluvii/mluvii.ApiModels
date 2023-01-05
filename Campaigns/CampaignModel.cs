@@ -34,7 +34,7 @@ namespace mluvii.ApiModels.Campaigns
 
         public int? CallScriptId { get; set; }
 
-        public int RoutingRuleSetId { get; set; }
+        public int? RoutingRuleSetId { get; set; }
 
         public int? RuleId { get; set; }
 
