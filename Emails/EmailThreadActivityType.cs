@@ -9,6 +9,7 @@ namespace mluvii.ApiModels.Emails
         Open,
         Forward,
         ForwardToOperators,
-        AutoIgnore
+        AutoIgnore,
+        ReplyAgain
     }
 }
