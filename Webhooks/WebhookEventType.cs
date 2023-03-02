@@ -38,6 +38,7 @@ namespace mluvii.ApiModels.Webhooks
         SessionActivityResumeGuest,
         SessionActivityChatToMail,
         SessionActivityAutoActivity,
+        SessionActivityAutoActivityAsOperator,
         SessionActivityChatbotHeroCardSubmission,
         SessionActivitySessionEnded,
         SessionActivitySessionForwarded,
