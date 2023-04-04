@@ -35,7 +35,7 @@ namespace mluvii.ApiModels.Common
     public enum RoutingTimelineActivityType
     {
         UNKNOWN = 0,
-        RoutingRequestCreated = 1,
+        RoutingRequestCreated,
         EnteredGroupQueue,
         GroupQueueTimeoutExpired,
         LeftGroupQueue,

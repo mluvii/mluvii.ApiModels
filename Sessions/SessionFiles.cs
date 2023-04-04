@@ -10,9 +10,9 @@ namespace mluvii.ApiModels.Sessions
     public enum SessionFileRemovalState
     {
         UNKNOWN = 0,
-        REMOVED = 1,
-        ALREADY_REMOVED = 2,
-        INACCESSIBLE = 4,
+        REMOVED,
+        ALREADY_REMOVED,
+        INACCESSIBLE,
     }
 
     public class SessionFileResponse

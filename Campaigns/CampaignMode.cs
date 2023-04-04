@@ -3,7 +3,7 @@
     public enum CampaignMode
     {
         UNKNOWN = 0,
-        Preview = 1,
-        Predictive = 2
+        Preview,
+        Predictive
     }
 }
