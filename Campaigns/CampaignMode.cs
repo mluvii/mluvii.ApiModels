@@ -4,6 +4,7 @@
     {
         UNKNOWN = 0,
         Preview,
-        Predictive
+        Predictive,
+        Automated
     }
 }

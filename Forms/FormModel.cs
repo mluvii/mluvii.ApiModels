@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using mluvii.ApiModels.Common;
 
 namespace mluvii.ApiModels.Forms
 {
@@ -8,6 +9,9 @@ namespace mluvii.ApiModels.Forms
 
         [EnumDataType(typeof(FormEntrypoint))]
         public FormEntrypoint FormType { get; set; }
+
+        [EnumDataType(typeof(Channel))]
+        public Channel FormChannel { get; set; }
 
         public string Name { get; set; }
 
