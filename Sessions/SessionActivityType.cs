@@ -31,6 +31,7 @@ namespace mluvii.ApiModels.Sessions
         AutoActivity,
         ChatbotHeroCardSubmission,
         AutoActivityAsOperator,
+        NotifyOperator,
         UpgradeToFull,
         SessionEnded,
         SessionForwarded,
