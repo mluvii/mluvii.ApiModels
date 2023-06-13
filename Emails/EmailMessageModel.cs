@@ -45,6 +45,7 @@ namespace mluvii.ApiModels.Emails
         /// <summary>
         /// E-mail message client e-mail.
         /// </summary>
+        [Obsolete("Replaced by Recipients collection and SenderAddress depending on State")]
         public string ClientEmail { get; set; }
 
         /// <summary>

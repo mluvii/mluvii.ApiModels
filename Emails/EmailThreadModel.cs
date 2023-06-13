@@ -37,9 +37,23 @@ namespace mluvii.ApiModels.Emails
         /// </summary>
         public string Subject { get; set; }
 
+        /// <summary>
+        /// Use <see cref="ClientNames"/> instead.
+        /// Contains single element of <see cref="ClientNames"/> or null if there are multiple clients.
+        /// </summary>
+        [Obsolete]
         public string ClientName { get; set; }
 
+        public IList<string> ClientNames { get; set; }
+
+        /// <summary>
+        /// Use <see cref="ClientEmails"/> instead.
+        /// Contains single element of <see cref="ClientEmails"/> or null if there are multiple client emails.
+        /// </summary>
+        [Obsolete]
         public string ClientEmail { get; set; }
+
+        public IList<string> ClientEmails { get; set; }
 
         /// <summary>
         /// E-mail thread inbox name.

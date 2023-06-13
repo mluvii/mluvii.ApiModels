@@ -1,3 +1,4 @@
+using System;
 using mluvii.ApiModels.Common.Filters;
 
 namespace mluvii.ApiModels.Emails
@@ -8,7 +9,13 @@ namespace mluvii.ApiModels.Emails
 
         public EnumSetFilter<EmailThreadState> State { get; set; }
 
+        /// <summary>
+        /// Use <see cref="Clients"/>.
+        /// </summary>
+        [Obsolete]
         public TextFilter Client { get; set; }
+
+        public StringSetFilter Clients { get; set; }
 
         public StringSetFilter Inbox { get; set; }
 

@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace mluvii.ApiModels.Emails
@@ -10,8 +12,13 @@ namespace mluvii.ApiModels.Emails
         [Required]
         public int OperatorUserId { get; set; }
 
-        [Required]
+        /// <summary>
+        /// Use <see cref="ClientEmails"/> instead.
+        /// </summary>
+        [Obsolete]
         public string To { get; set; }
+
+        public IList<string> ClientEmails { get; set; }
 
         [Required]
         [MinLength(1)]

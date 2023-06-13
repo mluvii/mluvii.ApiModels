@@ -6,7 +6,7 @@ namespace mluvii.ApiModels.Emails
     {
         public IdSetFilter MessageId { get; set; }
 
-        public TextFilter Client { get; set; }
+        public StringSetFilter Client { get; set; }
 
         public StringSetFilter Inbox { get; set; }
 
