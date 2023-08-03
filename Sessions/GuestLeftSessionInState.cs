@@ -6,6 +6,7 @@ namespace mluvii.ApiModels.Sessions
         LeftQueue,
         LeftSession,
         LeftAfterSession,
-        StillConnected
+        StillConnected,
+        LeftBeforeQueue
     }
 }
