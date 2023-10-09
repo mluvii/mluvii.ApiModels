@@ -20,6 +20,7 @@ namespace mluvii.ApiModels.Sessions
         LastFarewellMessage,
         PreviewUrl,
         Location,
+        HeroCardQuickReply,
         ExternalMessage,
         OnHold,
         ResumeGuest,

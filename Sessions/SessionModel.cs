@@ -359,6 +359,12 @@ namespace mluvii.ApiModels.Sessions
             public ICollection<ActivityFormField> CallScript { get; set; }
 
             /// <summary>
+            /// HeroCardQuickReply activity only
+            /// Id of the original HeroCard activity
+            /// </summary>
+            public long? ReplyToActivityId { get; set; }
+
+            /// <summary>
             /// "HeroCard submission" activity only
             /// Id of original HeroCard activity for this submission
             /// </summary>
