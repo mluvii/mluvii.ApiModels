@@ -410,6 +410,11 @@ namespace mluvii.ApiModels.Sessions
             /// "Chatbot HeroCard submission" activity only
             /// </summary>
             public string ChatbotHeroCardSubmissionValue { get; set; }
+            
+            /// <summary>
+            /// "Whatsapp messages sent to client" activity only
+            /// </summary>
+            public DeliveryState? Status { get; set; }
         }
 
         public class ActivityFile
