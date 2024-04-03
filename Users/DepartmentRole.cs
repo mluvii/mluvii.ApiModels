@@ -13,6 +13,7 @@ namespace mluvii.ApiModels.Users
         WhatsAppOperator,
         VkOperator,
         AppleOperator,
+        GenericChannelOperator,
         TenantAdmin,
         TenantTemplatesAdmin,
         TenantFilesAdmin,
