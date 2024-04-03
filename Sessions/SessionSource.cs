@@ -14,6 +14,7 @@ namespace mluvii.ApiModels.Sessions
         Facebook,
         WhatsApp,
         VK,
-        Apple
+        Apple,
+        GenericChannel
     }
 }
