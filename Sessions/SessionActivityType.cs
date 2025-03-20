@@ -21,6 +21,7 @@ namespace mluvii.ApiModels.Sessions
         PreviewUrl,
         Location,
         HeroCardQuickReply,
+        LocationRequest,
         ExternalMessage,
         OnHold,
         ResumeGuest,
