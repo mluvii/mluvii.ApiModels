@@ -9,8 +9,10 @@ namespace mluvii.ApiModels.Emails
         [Required]
         public int InboxId { get; set; }
 
-        [Required]
-        public int OperatorUserId { get; set; }
+        /// <summary>
+        /// If set, the thread will be assigned to the given operator for manual processing.
+        /// </summary>
+        public int? OperatorUserId { get; set; }
 
         /// <summary>
         /// Use <see cref="ClientEmails"/> instead.
