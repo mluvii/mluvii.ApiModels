@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>mluvii.ApiModels</PackageId>
+    <Description>Collection of models to use with the mluvii public api.
+See https://app.mluvii.com/api/index.html to browse and test available api methods.
+Version of the package does not equal the version of the mluvii application.
+Latest version of the package works with the latest mluvii version currently deployed.</Description>
   </PropertyGroup>
 
   <ItemGroup>
