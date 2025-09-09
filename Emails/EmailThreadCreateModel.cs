@@ -39,7 +39,6 @@ namespace mluvii.ApiModels.Emails
         /// Other addresses can be specified using the <see cref="ClientAdditionalEmails"/> property,
         /// but only <see cref="ClientEmail"/> is used when working with client contact's history.
         /// </summary>
-        [Required]
         public string ClientEmail { get; set; }
 
         /// <summary>
