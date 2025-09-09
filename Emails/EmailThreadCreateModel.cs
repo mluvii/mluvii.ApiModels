@@ -23,12 +23,31 @@ namespace mluvii.ApiModels.Emails
         public long? ContactId { get; set; }
 
         /// <summary>
-        /// Use <see cref="ClientEmails"/> instead.
+        /// Use <see cref="ClientEmail"/> and optionally <see cref="ClientAdditionalEmails"/> instead.
         /// </summary>
         [Obsolete]
         public string To { get; set; }
 
+        /// <summary>
+        /// Use <see cref="ClientEmail"/> and optionally <see cref="ClientAdditionalEmails"/> instead.
+        /// </summary>
+        [Obsolete]
         public IList<string> ClientEmails { get; set; }
+
+        /// <summary>
+        /// This is the client's primary email address.
+        /// Other addresses can be specified using the <see cref="ClientAdditionalEmails"/> property,
+        /// but only <see cref="ClientEmail"/> is used when working with client contact's history.
+        /// </summary>
+        [Required]
+        public string ClientEmail { get; set; }
+
+        /// <summary>
+        /// Additional recipient addresses.
+        /// Multiple addresses can be specified using the <see cref="ClientAdditionalEmails"/> property,
+        /// but only <see cref="ClientEmail"/> is used when working with client contact's history.
+        /// </summary>
+        public IList<string> ClientAdditionalEmails { get; set; }
 
         [Required]
         [MinLength(1)]
