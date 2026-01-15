@@ -15,5 +15,12 @@ namespace mluvii.ApiModels.Users
 
         [Required]
         public string Email { get; set; }
+
+        /// <summary>
+        /// Optional.
+        /// Force user to authenticate using an openid provider.
+        /// The user won't be able to set and use a password.
+        /// </summary>
+        public OpenIDProvider? OpenIDProvider { get; set; }
     }
 }
