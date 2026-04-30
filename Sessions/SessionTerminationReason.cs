@@ -21,6 +21,8 @@ namespace mluvii.ApiModels.Sessions
         FailedRouting,
         ExternalSessionExpired,
 
-        SessionApiCall
+        SessionApiCall,
+
+        SingleUseSession
     }
 }
